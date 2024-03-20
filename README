@@ -1,0 +1,13 @@
+yt.py is a basic program that inputs a youtube link and downloads
+the mp4 file to the a directory of videos created by the author,
+which is contained in a parent directory which stores all authors and videos.
+The program utilizes the pytube API to find the videos, parse their information,
+and download them.
+
+Instructions:
+
+1. while inside the directory containing yt.py, run "python yt.py"
+2. when prompted, input the link to the desired youtube video
+3. if the information is correct, enter "y" to download
+4. look in your Users/username/Youtube Downloads  folder and look for your video
+5. if more downloads are desired, enter "y" and repeat the process
